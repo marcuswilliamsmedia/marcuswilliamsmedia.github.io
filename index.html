@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="Msquared Media">
-	<meta name="description" content="Msquared Media - Social Campaigns | Consulting | Management">
+	<meta name="description" content="Msquared Media - Social Campaigns | Consulting">
 	<meta property="og:url" content="http://marcuswilliamsmedia.com"/>
 	<meta name="google-site-verification" content="DkDwXTvkWmVLbfBrTcIB5oGoki1myB260L94LvRFyDY"/>
 
@@ -93,7 +93,6 @@ Copyright - Msquared Media ||| Designed By - Msquared Media & Digital Team
 				<li><a href="#home" class="smoothScroll">HOME</a></li>
 				<li><a href="#work" class="smoothScroll">WORK</a></li>
 				<li><a href="#pricing" class="smoothScroll">ABOUT US</a></li>
-				<!-- <li><a href="#team" class="smoothScroll">TEAM</a></li> -->
 				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
 			</ul>
 		</div>
@@ -106,7 +105,7 @@ Copyright - Msquared Media ||| Designed By - Msquared Media & Digital Team
 		<div class="row">
 			<div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay= "0.7s">
 				<h3>SOCIAL MEDIA</h3>
-				<h6>CAMPAIGNS | CONSULTING | MANAGEMENT</h6>
+				<h6>CAMPAIGNS | MANAGEMENT</h6>
 				<hr>
 				<img src="images/Website_Horiz - TransparentBG.png">
 				<!-- <h1>M<sup>2</sup> Media</h1> -->
@@ -164,7 +163,7 @@ Copyright - Msquared Media ||| Designed By - Msquared Media & Digital Team
 </section>
 
 <!-- about section -->
-<section id="about">
+<!--<section id="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center wow fadeInUp" data-wow-delay= "0.3s">
@@ -187,6 +186,7 @@ Copyright - Msquared Media ||| Designed By - Msquared Media & Digital Team
 		</div>
 	</div>
 </section>
+-->
 
 <!-- work section 2 -->
 <section id="work">
@@ -261,16 +261,37 @@ Copyright - Msquared Media ||| Designed By - Msquared Media & Digital Team
 					<p>253-359-4077</p>
 				</div>
 			</div>
-			<form method="post" action="info@msquared.media?Subject=Msquared Media Contact Form Inquiry" enctype="text/plain"> 
-				<div class="col-md-6 col-sm-8">
+			<!--
+			<form name="contactForm" id="contactForm" method="post" action="">
+			<form method="post" name="contactForm" id="contactForm" method="post" action="" enctype="text/plain"> 
+				<fieldset>
+					<div class="col-md-6 col-sm-8">
+						<input type="text" id="contactFname" class="form-control" placeholder="Name/Company" name="contactFname"><br>
+					</div>
 					<div class="col-md-6 col-sm-6">
+						<input type="email" id="contactEmail" class="form-control" placeholder="Email" name="contactEmail" autocomplete="on"><br>
+					</div>
+					<div class="col-md-12 col-sm-6">
+						<input type="text" id="contactSubject" class="form-control" placeholder="Project Budget ($)" name="contactSubject" autocomplete="on"><br>
+					</div>
+					<div class="col-md-12 col-sm-12">
+						<textarea class="form-control" placeholder="Message" rows="7" name="contactMessage" id="contactMessage"></textarea>
+					</div>
+					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
+						<input type="submit" class="submit full-width" value="SEND MESSAGE">
+					</div>
+				</div>
+			-->
+			<form method="post" action="mailto:marcus@marcuswilliamsmedia.com?Subject=Msquared Media Contact Form Inquiry" enctype="text/plain"> 
+				<div class="col-md-6 col-sm-8">
+					<div class="col-md-6 col-sm-8">
 						<input type="text" class="form-control" placeholder="Name/Company" name="Name/Company "><br>
 					</div>
 					<div class="col-md-6 col-sm-6">
 						<input type="email" class="form-control" placeholder="Email" name="Email " autocomplete="on"><br>
 					</div>
 					<div class="col-md-12 col-sm-6">
-						<input type="text" class="form-control" placeholder="Project Budget ($)" name="Project Budget $" autocomplete="on"><br>
+						<input type="text" class="form-control" placeholder="Project Budget ($)" name="Budget " autocomplete="on"><br>
 					</div>
 					<div class="col-md-12 col-sm-12">
 						<textarea class="form-control" placeholder="Message" rows="7" name="Message "></textarea>
@@ -279,6 +300,8 @@ Copyright - Msquared Media ||| Designed By - Msquared Media & Digital Team
 						<input type="submit" class="form-control" value="SEND MESSAGE">
 					</div>
 				</div>
+			</form>
+				</fieldset>
 			</form>
 		</div>
 	</div>
